@@ -21,7 +21,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-PRODUCT_NAME := aosp_bullhead
+PRODUCT_NAME := rr_bullhead
 PRODUCT_DEVICE := bullhead
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := AOSP on BullHead
@@ -32,8 +32,3 @@ PRODUCT_COPY_FILES += device/lge/bullhead/fstab.aosp_bullhead:root/fstab.bullhea
 
 $(call inherit-product, device/lge/bullhead/device.mk)
 $(call inherit-product-if-exists, vendor/lge/bullhead/bullhead-vendor.mk)
-
-PRODUCT_PACKAGES += \
-    Launcher3 \
-    WallpaperPicker
-
