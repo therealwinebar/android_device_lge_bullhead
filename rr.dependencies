@@ -1,9 +1,9 @@
 [
   {
     "remote"      : "github",
-    "repository"  : "svlog/kernel_lge_bullhead",
+    "repository"  : "LineageOS/android_kernel_lge_bullhead",
     "target_path" : "kernel/lge/bullhead",
-    "branch"      : "stable"
+    "branch"      : "lineage-16.0"
   },
   {
     "remote"      : "github",
