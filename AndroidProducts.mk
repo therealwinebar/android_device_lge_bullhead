@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_bullhead.mk
+    $(LOCAL_DIR)/rr_bullhead.mk \
     $(LOCAL_DIR)/full_bullhead.mk
 COMMON_LUNCH_CHOICES := \
     rr_bullhead-userdebug
